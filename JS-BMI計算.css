@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content h1{
+    text-align: center;
+    font-size: 28px;
+    background: rgb(223, 137, 56);
+}
+.header{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    align-items: center;
+}
+.displatResult{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(223, 137, 56);
+    background: rgb(223, 137, 56);
+    position: relative;
+}
+.discriptResultText{
+    width: 150px;
+}
+.discriptResultText h2{
+    font-size: 28px;
+}
+.loop{
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: rgb(21, 95, 214);
+}
+.border_color_calculate{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    background: rgb(223, 137, 56);
+}
+.border_color_overlight{
+    height: 150px;
+    width: 150px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgb(223, 137, 56);
+    border: 5px solid rgb(21, 95, 214);
+    position: relative;
+}
+.text_color_overlight{
+    color: rgb(21, 95, 214);
+}
+.loop_overlight{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: rgb(21, 95, 214);
+}
+.border_color_light{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(223, 137, 56);
+    border: 5px solid rgb(21, 214, 204);
+    position: relative;
+}
+.text_color_light{
+    color: rgb(21, 214, 204);
+}
+.loop_light{
+    width: 25px;  
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: rgb(21, 214, 204);
+}
+.border_color_normal{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(223, 137, 56);
+    border: 5px solid rgb(21, 214, 47);
+    position: relative;
+}
+
+.text_color_normal{
+    color: rgb(21, 214, 47);
+}
+.loop_normal{
+    width: 25px;  
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: rgb(21, 214, 47); 
+}
+.border_color_weight{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(223, 137, 56);
+    border: 5px solid rgb(255, 227, 71);
+    position: relative;
+}
+.text_color_weight{
+    color: rgb(255, 227, 71);
+}
+.loop_weight{
+    width: 25px;  
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: rgb(255, 227, 71); 
+}
+.border_color_over_weight{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(223, 137, 56);
+    border: 5px solid rgb(255, 71, 71);
+    position: relative;
+}
+.text_color_over_weight{
+    color: rgb(255, 71, 71);
+}
+.loop_over_weight{
+    width: 25px;  
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: rgb(255, 71, 71); 
+}
+
+.resultText{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.diaplayArea{
+    text-align: center;
+}
+.diaplayArea h2{
+    padding-top: 60px;
+    font-size: 22px;
+}
+.diaplayArea img{
+    padding-top: 3px;
+}
+.inputData h2{
+    font-size: 24px;
+    color: rgb(223, 137, 56);
+}
+.inputData input{
+    border-radius: 5px;
+    border: 3px solid rgb(223, 137, 56);
+    width: 250px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.displayList{
+    background: gray;
+}
+.displayList ul{
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.displayList ul h3{
+    display: inline-block;
+    font-size: 26px;
+}
+.displayList li{
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #fff;
+    height: 40px;
+    margin: 20px 0 20px;
+    width: 600px;  
+}
+.displayList li span{
+    font-size: 18px;
+    padding-right: 10px;
+    color: gray;
+}
+.displayList li h4{
+
+    font-size: 14px;
+    color: gray;
+}
+.displayList li a{
+    text-decoration: none;
+    color: gray;
+}
+.displayList li a:hover{
+    color: red;
+}
+.overLight{
+    border-left: 10px solid rgb(21, 95, 214);
+}
+.light{
+    
+    border-left: 10px solid rgb(21, 214, 204);
+}   
+.normal{
+    border-left: 10px solid rgb(21, 214, 47);
+    
+}
+.weight{
+    border-left: 10px solid rgb(255, 227, 71);
+}    
+.overWeight{ 
+    border-left: 10px solid rgb(255, 71, 71);
+}    
+
+.displayList li.nodata{
+    background: gray;
+    font-size: 24px;
+    text-align: center;
+}
+.footer{
+    background: rgb(223, 137, 56);
+}
